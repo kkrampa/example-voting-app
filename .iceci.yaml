@@ -1,5 +1,5 @@
 steps:
-  - name: Build & push result
+  - name: "Build & push result"
     dockerBuild:
       dockerSecret: docker-io
       tag: master
