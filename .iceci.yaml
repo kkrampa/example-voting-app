@@ -7,4 +7,4 @@ steps:
       user: kkrampa
       imageName: example-voting-app-result
       tag: master
-      contextPath: ./result
+      contextPath: result
