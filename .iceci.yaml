@@ -1,6 +1,7 @@
 steps:
   - name: build-push-result
     dockerBuild:
+      registry: docker.io
       dockerSecret: docker-io
       user: kkrampa
       imageName: example-voting-app-result
