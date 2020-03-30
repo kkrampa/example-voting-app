@@ -1,6 +1,8 @@
 steps:
-  - name: "Build & push result"
+  - name: build-push-result
     dockerBuild:
       dockerSecret: docker-io
+      user: kkrampa
+      imageName: example-voting-app-result
       tag: master
       contextPath: ./result
