@@ -3,7 +3,7 @@ steps:
     dockerBuild:
       registry: docker.io
       dockerSecret: docker-io
-      dockerfilePath: Dockerfile
+      dockerfilePath: result/Dockerfile
       user: kkrampa
       imageName: example-voting-app-result
       tag: master
