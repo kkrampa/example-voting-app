@@ -1,9 +1,6 @@
 steps:
-  - name: example-step
-    dockerRun:
-      image: busybox
-      script: |
-        echo "### Environment variables from IceCI"
-        env | grep ICE
-        echo "### PWD"
-        pwd
+  - name: Build & push result
+    dockerBuild:
+      dockerSecret: docker-io
+      tag: master
+      contextPath: ./result
