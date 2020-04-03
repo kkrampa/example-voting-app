@@ -1,5 +1,5 @@
 steps:
-  - name: build-push-result-test2
+  - name: build-push-result-test
     dockerBuild:
       registry: docker.io
       dockerSecret: docker-io
