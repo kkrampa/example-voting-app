@@ -6,6 +6,6 @@ steps:
       user: kkrampa
       imageName: example-voting-app-result
       tags: 
-      - master
+      - "master-{{ ICE_GIT_COMMIT_SHA }}"
       contextPath: result
       dockerfilePath: result/Dockerfile
