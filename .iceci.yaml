@@ -8,3 +8,4 @@ steps:
       tags: 
       - master
       contextPath: result
+      dockerfilePath: result/Dockerfile
