@@ -1,6 +1,6 @@
 steps:
   - name: build-push-result-test2
-    runtimeProfile: small3
+    runtimeProfile: labels-annotations
     dockerBuild:
       registry: docker.io
       dockerSecret: docker-io
